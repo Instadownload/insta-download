@@ -103,9 +103,9 @@ No. Simplemente instala y listo.
 ![image](https://user-images.githubusercontent.com/94854958/144005977-db47eb93-2418-471c-8a76-c126ad5c731c.png)
 
 - Si has accedido a un perfil desde una página externa, es posible que debas limpiar la URL de parámetros (borra la parte de la URL a partir del signo de interrogación)
-_https://instagram.com/usuario?parametro1&parametro2_
+[https://instagram.com/usuario?parametro1&parametro2](https://www.instagram.com/instadownload44/)
 _Insta Download_ sólo acepta URL's con el siguiente esquema: 
->https://instagram.com/usuario
+>[https://instagram.com/usuario](https://www.instagram.com/instadownload44/)
 ### En algunos casos, los botones de descarga aparecen en rojo y marcados con una equis...
 No se pueden descargar datos de una cuenta privada.
 ## Sobre las descargas
