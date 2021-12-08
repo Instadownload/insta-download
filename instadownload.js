@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Insta Download
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description:es  Copia el ID de un perfil de Instagram al portapapeles y descarga sus seguidores, seguidos y archivos multimedia a un documento txt
 // @description:en Copy the ID of an Instagram profile to the clipboard and download its followers, following and multimedia files to a txt document
 // @author @instadownload1
@@ -229,13 +229,13 @@
         menu.appendChild(li_seguidos);
 
         // Añade el boton ID
-        if (document.querySelector('div.-vDIg>h1.rhpdm') === null) {
+        if (document.querySelector('div.QGPIr>h1.rhpdm') === null) {
             // Se da esta circunstancia cuando el usuario no tiene nombre establecido
-            GM_addElement(document.querySelector('div.-vDIg'), 'h1', {
+            GM_addElement(document.querySelector('div.QGPIr'), 'h1', {
                 class: 'rhpdm'
             })
         }
-        document.querySelector('div.-vDIg>h1.rhpdm').appendChild(btn_id);
+        document.querySelector('div.QGPIr>h1.rhpdm').appendChild(btn_id);
 
         // Funcionalidad boton 'copiar id'
         btn_id.addEventListener('click', () => {
