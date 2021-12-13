@@ -130,6 +130,7 @@ Puedes utilizar un gestor de descargas, como [JDownloader](https://jdownloader.o
 ## Construido con 🛠️
 
 * [SweetAlert](https://sweetalert2.github.io/)
+* [WaitForKeysElements](https://gist.github.com/BrockA/2625891)
 
 ## Licencia 📄
 
